@@ -68,7 +68,7 @@ LLM function-calling can replace prompting for additional robustness.
 
 ## **Next Steps**
 
-Possible enhancements include incremental FAISS updates, additional ranking signals from past project metadata, fallback LLM configurations, and an interactive UI for plan review.
+Possible enhancements include incremental FAISS updates, additional ranking signals from past project metadata, fallback LLM configurations, and an interactive UI with a FastAPI-based backend for plan review.
 
 ---
 
