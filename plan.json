@@ -1,0 +1,64 @@
+{
+  "opportunity_id": "NEW-OPP-A",
+  "phases": [
+    {
+      "id": "PH-001",
+      "name": "Requirements Gathering",
+      "duration_days": 10,
+      "dependencies": []
+    },
+    {
+      "id": "PH-002",
+      "name": "Salesforce Integration",
+      "duration_days": 15,
+      "dependencies": [
+        "PH-001"
+      ]
+    },
+    {
+      "id": "PH-003",
+      "name": "Docxtemplater Configuration",
+      "duration_days": 8,
+      "dependencies": [
+        "PH-001"
+      ]
+    },
+    {
+      "id": "PH-004",
+      "name": "S3 Upload Setup",
+      "duration_days": 5,
+      "dependencies": [
+        "PH-002",
+        "PH-003"
+      ]
+    },
+    {
+      "id": "PH-005",
+      "name": "Opportunity Similarity Analysis",
+      "duration_days": 12,
+      "dependencies": [
+        "PH-002",
+        "PH-003"
+      ]
+    },
+    {
+      "id": "PH-006",
+      "name": "SOW Generation",
+      "duration_days": 18,
+      "dependencies": [
+        "PH-004",
+        "PH-005"
+      ]
+    },
+    {
+      "id": "PH-007",
+      "name": "Testing and Deployment",
+      "duration_days": 9,
+      "dependencies": [
+        "PH-006"
+      ]
+    }
+  ],
+  "total_duration_days": 77,
+  "notes": "This project plan is based on the provided similar opportunities and takes into account the constraints of strict JSON schema, budget awareness, and latency target."
+}

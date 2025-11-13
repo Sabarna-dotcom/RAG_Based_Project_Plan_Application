@@ -1,0 +1,15 @@
+numpy
+scipy
+faiss-cpu
+scikit-learn
+requests
+jsonschema
+groq
+tqdm
+joblib
+langchain
+langchain-core
+langchain-community
+langchain-groq
+pydantic
+python-dotenv
